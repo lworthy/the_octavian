@@ -7,23 +7,17 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 
 function App() {
-  function App() {
-    return (
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/menu" element={<Menu />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
-
-      
-    );
-
-    
-  }
+  return (
+    <Router basename={process.env.PUBLIC_URL}>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
