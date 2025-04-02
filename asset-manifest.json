@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/the_octavian/static/css/main.23875ca6.css",
+    "main.js": "/the_octavian/static/js/main.e64122f4.js",
+    "index.html": "/the_octavian/index.html",
+    "main.23875ca6.css.map": "/the_octavian/static/css/main.23875ca6.css.map",
+    "main.e64122f4.js.map": "/the_octavian/static/js/main.e64122f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23875ca6.css",
+    "static/js/main.e64122f4.js"
+  ]
+}
